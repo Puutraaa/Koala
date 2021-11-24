@@ -59,8 +59,8 @@ Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
 Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA🐨](https://t.me/manusiarakitann)
-▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
+▪**Managed with by:** [Putra](http://t.me/Punya_Icipiyey)
+▪**JOIN MY CH OFFICIAL:** [Chameleon's](https://t.me/ChameleonsDiary)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -86,12 +86,12 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/03c7bd25c0fba519d23df.jpg"
 
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [KOALA 🐨](https://t.me/manusiarakitann), or [SUBS MY CH](https://t.me/caritemanhidupofficial)."""
+user gratisan gausah sok keras; [PUTRA](https://t.me/Punya_Icipiyey), or [SUBS MY CH](https://t.me/ChameleonsDiary)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -215,8 +215,8 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 CTH Grup",
-                             url=f"https://t.me/caritemanhidop"),
+                             text="👥 Putra Support",
+                             url=f"https://t.me/putrasupport"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚫 Gban Logs",
-                             url="https://t.me/joinchat/SKYP-Hv8tqZ-UvYq")
+                             url="www.xxx.com")
                      ]]))
     else:
         update.effective_message.reply_text(
